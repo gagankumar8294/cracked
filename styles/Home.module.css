@@ -1,0 +1,158 @@
+@import url("http://fonts.googleapis.com/css?family=Nunito:wght@300;400;600;700&display-swap");
+
+
+.title {
+  color: #333;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.text {
+  color: #777;
+  text-align:center;
+}
+
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 50px auto 20px auto;
+  background: #4979ff;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.link {
+  color: brown;
+  text-decoration: none;
+  padding-left:5px;
+}
+
+
+.container {
+  display : flex;
+  margin-top: 30vh;
+  margin-bottom: 35vh;
+}
+
+.leftDiv {
+  flex: 1;
+}
+
+.rightDiv {
+  flex: 1;
+  /* background-color: #000; */
+  margin-top: -55px;
+}
+
+.main_link {
+  margin-left: 0px;
+  margin-top: 100px;
+}
+
+.button_1 {
+  /* background: #2A7CA4; */
+  background: #A274A2;
+  color: rgba(255, 255, 255, 0.822);
+  border-radius: 5px;
+  padding: 0.7em 1em 0.7em 1em;
+  text-decoration: none;
+  margin-left: 23.9%;
+  font-size: 105%;
+}
+
+.button_2 {
+  /* background: #A274A2; */
+  background: #2A7CA4;
+  color: rgba(255, 255, 255, 0.822);
+  border-radius: 5px;
+  padding: 0.7em 1em 0.7em 1em;
+  text-decoration: none;
+  margin-left: 8%;
+  font-size: 105%;
+}
+
+
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centerImage {
+  position: relative;
+  cursor: pointer;
+}
+
+.centerImage img {
+  width: 200px; /* Adjust the size as needed */
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.outerCircle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 240px; /* Adjust the size as needed */
+  height: 240px;
+  border-radius: 50%;
+  border: 2px solid rgb(192, 96, 96);
+  animation: rotate 5s linear infinite;
+}
+
+.innerCircle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px; /* Adjust the size as needed */
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid rgb(179, 113, 113);
+  animation: rotate-reverse 3s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes rotate-reverse {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+
+
+/*
+.moveCircles {
+   Add CSS properties to move the circles to the center 
+}
+
+.showCircles {
+   Add CSS properties to show the circles 
+}*/
+
+
+@media (max-width: 768px) {
+  .hamburger_section {
+    max-width: 768px;
+  }
+}

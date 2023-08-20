@@ -1,0 +1,19 @@
+.left{
+    text-align: center;
+    float: left;
+    color: red;
+    background-color: black;;
+    width : 30%;
+}
+
+.right {
+    float: right;
+    text-align: center;
+    color: green;
+    background-color: black;
+    width : 60%;
+}
+
+.fit {
+  align-items: flex-end;
+}

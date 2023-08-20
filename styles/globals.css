@@ -1,0 +1,51 @@
+@import url("http://fonts.googleapis.com/css?family=Nunito:wght@300;400;600;700&display-swap");
+
+/*   Global scrollbar sstyles  */
+
+/* Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+/* Firefox */
+::-moz-scrollbar {
+  width:10px;
+  height: 10px;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+/* Thumb */
+::-webkit-scrollbar-thumb {
+  background-color:#000;
+  border-radius: 5px;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 5px;
+}
+
+body {
+  background: #100E0D;
+  color: #333;
+  font-family: "Nunito";
+}
+
+
+/* ----------------   NAVBAR   ---------------- */
+
+
+
+
+
+@import url("http://fonts.googleapis.com/css?family=Nunito:wght@300;400;600;700&display-swap");
+
+body {
+  background: black;
+  color: #333;
+  font-family: "Nunito";
+}
